@@ -5,6 +5,7 @@ public class Game {
     public Game(){
         totalPaperClips = 20;
     }
+    // checks to see if there are 0 paper clips left
     public Boolean checkWin(){
         if(totalPaperClips <= 0){
             win = true;
