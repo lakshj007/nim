@@ -4,6 +4,7 @@ public class Player{
     public Player(String name){
         this.name = name;
     }
+    // removes paper clips depending on user input
     public void removePaperClips(int remove, Game game){
         this.numRemoved = remove;
         // System.out.println("in player");
