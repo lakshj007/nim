@@ -5,6 +5,7 @@ public class Computer {
     public Computer(){
         this.name = "Computer";
     }
+    // removes paper clips depending on how many there are
     public void removePaperClips(int remove, Game game){
         // System.out.println("numRemoved: " + numRemoved + " and game.totalPaperClips/2: " + game.totalPaperClips/2);
         if(numRemoved <= game.totalPaperClips/2){
