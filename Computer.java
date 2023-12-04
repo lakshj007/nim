@@ -1,7 +1,7 @@
 import java.lang.Math;
 public class Computer {
-    int numRemoved;
-    String name;
+    private int numRemoved;
+    private String name;
     public Computer(){
         this.name = "Computer";
     }
